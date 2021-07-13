@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const Root = styled.div`
+	width: 100%;
+`;
+
 export const BodyContainer = styled.div`
 	height: 100%;
 	width: 100%;
@@ -53,18 +57,20 @@ export const BarMenuSignup = styled.div`
 	border: 1px solid;
 	border-radius: 20px;
 	border-color: blue;
-`
+	cursor: pointer;
+`;
+
 export const PricingTitle = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	font-size: 60px;
 	margin-top: 50px;
-`
+`;
 
 export const MarginTop = styled.div`
 	margin-top: 20px;
-`
+`;
 
 export const PricingExplanation = styled.div`
 	display: flex;
@@ -72,15 +78,18 @@ export const PricingExplanation = styled.div`
 	justify-content: center;
 	font-size: 24px;
 	margin-top: 7px;
-`
+`;
 
 export const PricingBoxContainer = styled.div`
+	width: 900px;
 	height: 500px;
 	display: flex;
-	align-items: center;
 	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 	margin-top: 10px;
-`
+	flex-wrap: wrap;
+`;
 
 export const PricingBox = styled.div`
 	height: 350px;
@@ -92,7 +101,7 @@ export const PricingBox = styled.div`
 	border-radius: 5px;
 	border: 1px solid;
 	padding: 0px 15px;
-`
+`;
 
 export const PricingBoxTitle = styled.div`
 	height: 70px;
@@ -102,4 +111,4 @@ export const PricingBoxTitle = styled.div`
 	padding: 20px 70px;
 	box-sizing: border-box;
 	font-size: 30px;
-`
+`;
