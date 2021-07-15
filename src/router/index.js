@@ -1,14 +1,15 @@
 import React, { useEffect } from 'react';
 import { Route, Switch, useLocation } from 'react-router-dom';
-import App from '../pages/Main/App';
-import App2 from '../pages/App2';
+import Main from '../pages/Main/index';
+import Sub from '../pages/Sub/index';
 
 const router = () => {
 	return (
 		<div>
-      <Switch>
-        <Route exact path="/" component={App} />
-      </Switch>
+			<Switch>
+				<Route exact path="/sub" component={Sub} />
+				<Route exact path="/" component={Main} />
+			</Switch>
 		</div>
 	);
 };
