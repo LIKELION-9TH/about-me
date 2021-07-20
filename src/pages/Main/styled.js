@@ -20,7 +20,6 @@ export const SubIntroduce = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  margin-left: 7px;
 `
 
 export const BasicInformationTitle = styled.div`
@@ -29,7 +28,7 @@ export const BasicInformationTitle = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 `
 
 export const BasicInformation = styled.div`
