@@ -1,4 +1,9 @@
 import styled from 'styled-components';
+import { Typography } from '@material-ui/core';
+
+export const DrawerTypo = styled(Typography)`
+	font-family: 'Nanum Gothic Coding', monospace;
+`;
 
 export const Root = styled.div `
 	width : 100%;

@@ -1,4 +1,7 @@
 @font-face {
 	font-family: 'NanumBarunGothic';
+	font-family: 'Nanum Gothic Coding', monospace;
 	src: url('../assets/font/NanumBarunGothic.ttf') format('truetype');
+	src: url('../assets/font/NanumGothicCoding.ttf') format('truetype');
 }
+
