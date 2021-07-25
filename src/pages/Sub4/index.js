@@ -63,7 +63,7 @@ const App = () => {
 				<div style={{display: "flex", flexDirection: "column", marginTop: "100px", marginLeft: "100px", alignItems: "center"}}>
 					<img src={sampleImage9} style={{width: "300px", height: "300px", borderRadius: "10px"}} />
 					<h4 style={{marginBottom: "2px"}}>📸찍은 장소📸 : 🚃홍대입구 원더플레이스🚃</h4>
-          <h5>📸컨셉📸 : 친구랑 얼떨떨하게 만남(컨셉 아님)</h5>
+          <h5>📸컨셉📸 : 친구랑 얼떨떨하게 만남</h5>
 				</div>
 			</div>
 		</Styled.Root>
