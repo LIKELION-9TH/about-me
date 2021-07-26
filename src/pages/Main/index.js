@@ -23,7 +23,7 @@ const App = () => {
 			<Styled.BasicInformation>
 				학교 및 전공, 학년, 학적상태 : 🔮성신여자대학교 AI융합학부 1학년 재학🔮
 			</Styled.BasicInformation>
-			<Card />
+			<Card title="asd" />
 		</Styled.Root>
 	);
 };
