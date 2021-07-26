@@ -17,52 +17,52 @@ const App = () => {
 			<div style={{display: "flex", flexDirection: "row"}}>
 				<div style={{display: "flex", flexDirection: "column", marginTop: "100px", marginLeft: "130px", alignItems: "center"}}>
 					<img src={sampleImage7} style={{width: "300px", height: "300px", borderRadius: "10px"}} />
-					<h4 style={{marginBottom: "2px"}}>⛳️장소⛳️ : 을지다락 강남</h4>
-					<h4>🍴위치🍴 : 서울시 강남구</h4>
+					<h4 style={{marginBottom: "5px"}}>⛳️장소⛳️ : 을지다락 강남</h4>
+					<h5>🍴위치🍴 : 서울시 강남구</h5>
 				</div>
 				<div style={{display: "flex", flexDirection: "column", marginTop: "100px", marginLeft: "100px", alignItems: "center"}}>
 					<img src={sampleImage8} style={{width: "300px", height: "300px", borderRadius: "10px"}} />
-					<h4 style={{marginBottom: "2px"}}>⛳️장소⛳️ : 도레도레(Dore Dore)</h4>
-					<h4>🍴위치🍴 : 서울시 신사동 가로수길</h4>
+					<h4 style={{marginBottom: "5px"}}>⛳️장소⛳️ : 도레도레(Dore Dore)</h4>
+					<h5>🍴위치🍴 : 서울시 신사동 가로수길</h5>
 				</div>
 				<div style={{display: "flex", flexDirection: "column", marginTop: "100px", marginLeft: "100px", alignItems: "center"}}>
 					<img src={sampleImage9} style={{width: "300px", height: "300px", borderRadius: "10px"}} />
-					<h4 style={{marginBottom: "2px"}}>⛳️장소⛳️ : 봄의 정원</h4>
-					<h4>🍴위치🍴 : 서울시 성동구</h4>
+					<h4 style={{marginBottom: "5px"}}>⛳️장소⛳️ : 봄의 정원</h4>
+					<h5>🍴위치🍴 : 서울시 성동구</h5>
 				</div>
 			</div>
 			<div style={{display: "flex", flexDirection: "row"}}>
 				<div style={{display: "flex", flexDirection: "column", marginTop: "100px", marginLeft: "130px", alignItems: "center"}}>
 					<img src={sampleImage10} style={{width: "300px", height: "300px", borderRadius: "10px"}} />
-					<h4 style={{marginBottom: "2px"}}>⛳️장소⛳️ : 연남 토마</h4>
-					<h4>🍴위치🍴 : 서울시 마포구</h4>
+					<h4 style={{marginBottom: "5px"}}>⛳️장소⛳️ : 연남 토마</h4>
+					<h5>🍴위치🍴 : 서울시 마포구</h5>
 				</div>
 				<div style={{display: "flex", flexDirection: "column", marginTop: "100px", marginLeft: "100px", alignItems: "center"}}>
 					<img src={sampleImage11} style={{width: "300px", height: "300px", borderRadius: "10px"}} />
-					<h4 style={{marginBottom: "2px"}}>⛳️장소⛳️ : 감성타코</h4>
-					<h4>🍴위치🍴 : 서울시 강남구</h4>
+					<h4 style={{marginBottom: "5px"}}>⛳️장소⛳️ : 감성타코</h4>
+					<h5>🍴위치🍴 : 서울시 강남구</h5>
 				</div>
 				<div style={{display: "flex", flexDirection: "column", marginTop: "100px", marginLeft: "100px", alignItems: "center"}}>
 					<img src={sampleImage12} style={{width: "300px", height: "300px", borderRadius: "10px"}} />
-					<h4 style={{marginBottom: "2px"}}>⛳️장소⛳️ : 우디집</h4>
-					<h4>🍴위치🍴 : 서울시 성동구</h4>
+					<h4 style={{marginBottom: "5px"}}>⛳️장소⛳️ : 우디집</h4>
+					<h5>🍴위치🍴 : 서울시 성동구</h5>
 				</div>
 			</div>
 			<div style={{display: "flex", flexDirection: "row"}}>
 				<div style={{display: "flex", flexDirection: "column", marginTop: "100px", marginLeft: "130px", alignItems: "center"}}>
 					<img src={sampleImage13} style={{width: "300px", height: "300px", borderRadius: "10px"}} />
-					<h4 style={{marginBottom: "2px"}}>⛳️장소⛳️ : 쩡곱도리탕</h4>
-					<h4>🍴위치🍴 : 서울시 동작구</h4>
+					<h4 style={{marginBottom: "5px"}}>⛳️장소⛳️ : 쩡곱도리탕</h4>
+					<h5>🍴위치🍴 : 서울시 동작구</h5>
 				</div>
 				<div style={{display: "flex", flexDirection: "column", marginTop: "100px", marginLeft: "100px", alignItems: "center"}}>
 					<img src={sampleImage14} style={{width: "300px", height: "300px", borderRadius: "10px"}} />
-					<h4 style={{marginBottom: "2px"}}>⛳️장소⛳️ : 우와</h4>
-					<h4>🍴위치🍴 : 서울시 마포구</h4>
+					<h4 style={{marginBottom: "5px"}}>⛳️장소⛳️ : 우와</h4>
+					<h5>🍴위치🍴 : 서울시 마포구</h5>
 				</div>
 				<div style={{display: "flex", flexDirection: "column", marginTop: "100px", marginLeft: "100px", alignItems: "center"}}>
 					<img src={sampleImage15} style={{width: "300px", height: "300px", borderRadius: "10px"}} />
-					<h4 style={{marginBottom: "2px"}}>⛳️장소⛳️ : 바스버거</h4>
-					<h4>🍴위치🍴 : 서울시 성동구</h4>
+					<h4 style={{marginBottom: "5px"}}>⛳️장소⛳️ : 바스버거</h4>
+					<h5>🍴위치🍴 : 서울시 성동구</h5>
 				</div>
 			</div>
 		</Styled.Root>
