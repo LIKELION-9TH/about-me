@@ -1,8 +1,14 @@
 import * as Styled from './styled';
 import Header from '../../components/Header/Header';
 import Card from '../../components/Card/Card';
+import { useEffect } from 'react';
 
 const App = () => {
+
+	useEffect(() => {
+		fetch('http://127.0.0.1:8000/music/', {method: 'get'}).then((res) => console.log(res)).then((res) => console.log(res))
+	}, [])
+
 	return (
 		<Styled.Root>
 			<Header />
@@ -23,7 +29,6 @@ const App = () => {
 			<Styled.BasicInformation>
 				학교 및 전공, 학년, 학적상태 : 🔮성신여자대학교 AI융합학부 1학년 재학🔮
 			</Styled.BasicInformation>
-			<Card title="asd" />
 		</Styled.Root>
 	);
 };

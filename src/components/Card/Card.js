@@ -1,22 +1,25 @@
 import React from 'react';
 import * as Styled from './styled';
 
-const Card = ({ title }) => {
+const Card = ({ image, title, singer }) => {
 	return (
 		<Styled.Root>
-			<div className="card" style={{ width: '18rem' }}>
-				<img src="..." className="card-img-top" alt="..." />
-				<div className="card-body">
-					<h5 className="card-title">{title}</h5>
-					<p className="card-text">
-						Some quick example text to build on the card title and make up the
-						bulk of the card's content.
-					</p>
-					<a href="#" className="btn btn-primary">
-						Go somewhere
-					</a>
-				</div>
-			</div>
+		<div
+			style={{
+				display: 'flex',
+				flexDirection: 'column',
+				marginTop: '100px',
+				marginLeft: '100px',
+				alignItems: 'center',
+			}}
+		>
+			<img
+				src={image}
+				style={{ width: '300px', height: '300px', borderRadius: '10px' }}
+			/>
+			<h4 style={{ marginBottom: '2px' }}>{title}</h4>
+			<h4>{singer}</h4>
+		</div>
 		</Styled.Root>
 	);
 };

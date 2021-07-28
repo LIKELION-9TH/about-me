@@ -15,7 +15,7 @@ const App = () => {
 	return (
 		<Styled.Root>
 			<Header />
-			<div style={{ display: 'flex', flexDirection: 'row' }}>
+			<div style={{ display: 'flex', flexDirection: 'row', flexWrap: "wrap" }}>
 				<div
 					style={{
 						display: 'flex',
@@ -64,8 +64,6 @@ const App = () => {
 					<h4 style={{ marginBottom: '2px' }}>🎵곡🎵 : 장미 유행가</h4>
 					<h4>🎵가수🎵 : RIO</h4>
 				</div>
-			</div>
-			<div style={{ display: 'flex', flexDirection: 'row' }}>
 				<div
 					style={{
 						display: 'flex',
@@ -98,24 +96,7 @@ const App = () => {
 					<h4 style={{ marginBottom: '2px' }}>🎵곡🎵 : Dun Dun Dance</h4>
 					<h4>🎵가수🎵 : 오마이걸</h4>
 				</div>
-				<div
-					style={{
-						display: 'flex',
-						flexDirection: 'column',
-						marginTop: '100px',
-						marginLeft: '100px',
-						alignItems: 'center',
-					}}
-				>
-					<img
-						src={sampleImage6}
-						style={{ width: '300px', height: '300px', borderRadius: '10px' }}
-					/>
-					<h4 style={{ marginBottom: '2px' }}>🎵곡🎵 : 내 손을 잡아</h4>
-					<h4>🎵가수🎵 : 아이유</h4>
-				</div>
-			</div>
-			<div style={{ display: 'flex', flexDirection: 'row' }}>
+				<Card title={"🎵곡🎵 : 내 손을 잡아"} singer={"🎵가수🎵 : 아이유"} image ={sampleImage6} />
 				<div
 					style={{
 						display: 'flex',
