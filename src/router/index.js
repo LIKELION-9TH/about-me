@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { Route, Switch, useLocation } from 'react-router-dom';
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
 import Main from '../pages/Main/index';
 import Sub1 from '../pages/Sub1/index';
 import Sub2 from '../pages/Sub2/index';
