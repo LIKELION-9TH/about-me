@@ -20,7 +20,7 @@ const Card = ({ image, title, description, type }) => {
 
 	return (
 		<Styled.Root>
-			<Styled.Image src={image} />
+			<Styled.Image src={image} alt={title} />
 			<h4 style={{ marginBottom: '2px' }}>
 				{rowData.title} : {title}
 			</h4>
