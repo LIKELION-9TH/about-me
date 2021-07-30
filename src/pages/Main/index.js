@@ -1,14 +1,7 @@
 import * as Styled from './styled';
 import Header from '../../components/Header/Header';
-import Card from '../../components/Card/Card';
-import { useEffect } from 'react';
 
 const App = () => {
-
-	useEffect(() => {
-		fetch('http://127.0.0.1:8000/music/', {method: 'get'}).then((res) => console.log(res)).then((res) => console.log(res))
-	}, [])
-
 	return (
 		<Styled.Root>
 			<Header />
