@@ -1,3 +1,4 @@
+# 김소정의 자기소개 페이지 프론트엔드(리액트)입니다. 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
