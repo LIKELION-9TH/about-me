@@ -9,6 +9,7 @@ const App = () => {
 
 	useEffect(() => {
 		musicList().then((res) => setData(res));
+		musicList().then((res) => console.log(res));
 	}, []);
 
 	return (
@@ -19,6 +20,7 @@ const App = () => {
 					<Card
 						title={card.title}
 						description={card.description}
+						image={card.banner_image}
 						type="music"
 						key={`music_${index}`}
 					/>

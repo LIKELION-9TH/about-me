@@ -19,6 +19,7 @@ const App = () => {
 					<Card
 						title={card.title}
 						description={card.description}
+						image={card.banner_image}
 						type="me"
 						key={`me_${index}`}
 					/>
